@@ -20,7 +20,7 @@ const bigNumber = 2676725675656325672654n
 console.log(typeof bigNumber) // output => bigint
 
 
-
+  
 // Reference (Non primitive )
 
 // Array, Objects, Functions
