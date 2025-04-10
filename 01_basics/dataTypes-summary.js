@@ -40,3 +40,37 @@ console.log(typeof scorevalue); // output => Number
 console.log(typeof myFunction); // output => Function but generally it is called as Function object
 console.log(typeof heros); // output => object
 console.log(typeof anotherId); // output => symbol
+
+
+
+
+
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+console.log("-------Stack and Heap -----------");
+
+// Stack (Primitive), Heap (Non-Primitive)
+let myYoutubename = "vivekprajapat.com"
+
+ let anothername =  myYoutubename
+ anothername = "indiancreatorsparody"
+
+ console.log(myYoutubename);
+ console.log(anothername); 
+
+ let userOne = {
+    email: "user@google.com",
+    upi: "user@upi"
+ }
+
+ let userTwo = userOne 
+
+ userTwo.email = "vivek@google.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
+
+ 
