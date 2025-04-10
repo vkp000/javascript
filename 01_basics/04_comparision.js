@@ -34,3 +34,5 @@ console.log(undefined >= 0);
 console.log("--operations 4--------------------------------")
     // === <-- this operation not only check values but also checks the dataTypes also
 console.log("2" === 2);
+
+
