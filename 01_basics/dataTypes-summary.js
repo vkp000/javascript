@@ -53,24 +53,24 @@ console.log(typeof anotherId); // output => symbol
 console.log("-------Stack and Heap -----------");
 
 // Stack (Primitive), Heap (Non-Primitive)
-let myYoutubename = "vivekprajapat.com"
+let myYoutubename = "vivekprajapat.com"  // value is stored in stack
 
- let anothername =  myYoutubename
+let anothername =  myYoutubename  // value of myYoutubename is copied into anothername, so changing anothernamme will not affect myYoutubename
  anothername = "indiancreatorsparody"
 
- console.log(myYoutubename);
- console.log(anothername); 
+ console.log(myYoutubename); // output => vivekprajapat.com 
+ console.log(anothername); // output => indiancreatorsparody
 
- let userOne = {
+let userOne = {               // value will be stored in heap and reference will be provided to the userOne variable 
     email: "user@google.com",
     upi: "user@upi"
  }
 
- let userTwo = userOne 
+let userTwo = userOne   // Reference of the userOne variable is passed to userTwo 
 
  userTwo.email = "vivek@google.com"
 
- console.log(userOne.email);
- console.log(userTwo.email);
+ console.log(userOne.email); // output => vivek@google.com  because when we changed userTwo userOne is also changed because useOne is passed by Reference 
+ console.log(userTwo.email); // output => vivek@google.com
 
  
