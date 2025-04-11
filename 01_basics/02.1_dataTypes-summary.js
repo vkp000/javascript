@@ -8,9 +8,9 @@ const scorevalue = 100.3
 
 const isLoggedIn = false
 const outsideTemp = null
-let userEmail; // value = undefined 
-
-/*below both different value because symbol gives them a uniqueness */
+let userEmail; // value = undefined.       
+   
+/*below both different value because symbol gives them a uniqueness *///
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
