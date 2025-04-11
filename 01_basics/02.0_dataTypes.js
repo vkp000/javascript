@@ -21,7 +21,6 @@ let state;
 // object
 /////
 
-
 console.log(typeof "vivek");
 console.log(typeof null);
 console.log(typeof undefined);
