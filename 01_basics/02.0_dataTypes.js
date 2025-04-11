@@ -19,7 +19,9 @@ let state;
 // undefined => 
 // symbol => jab bhi hume baat karni ho unique ke liye
 // object
-//
+/////
+
+
 console.log(typeof "vivek");
 console.log(typeof null);
 console.log(typeof undefined);
