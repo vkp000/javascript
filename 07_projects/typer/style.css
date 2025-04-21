@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background: #000;
+    color: #fff;
+  }
+  
+  p {
+    font-size: 3rem;
+  }
+  
+  .js {
+    color: #fdfdfc;
+  }
+  
+  .typed-text {
+    color: #de8512;
+  }
+  
+  .cursor {
+    background: #dbe912;
+    display: inline-block;
+    width: 3px;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 50% {
+      opacity: 1;
+    }
+    51%, 100% {
+      opacity: 0;
+    }
+  }
+  
